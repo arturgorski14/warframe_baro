@@ -4,9 +4,19 @@ import requests
 import csv
 import json
 import sys
+import math
 
 
-def valuable_items_intervals():
+def populate_threshold_from_args(*argv):
+    data = [0, 100]
+    for i, arg in enumerate(argv[0][1:3]):
+        data[i] = int(arg)
+    return data
+
+
+def valuable_items_intervals(threshold_min: int, threshold_max: int):
+    threshold_min, threshold_max = swap_threshold_if_needed(threshold_min, threshold_max)
+
     response_ducats = requests.get('https://api.warframe.market/v1/tools/ducats').json()
     ducat_list = response_ducats['payload']['previous_hour']
 
@@ -18,10 +28,12 @@ def valuable_items_intervals():
 
     [print(f'{i}: {x}') for i, x in enumerate(wa_all_items)]
 
-    print(sum(wa_all_items[7:]))
+    print(sum(wa_all_items[threshold_min:threshold_max]))
 
 
-def get_valuable_items(threshold_min: int):
+def get_valuable_items(threshold_min: float, threshold_max: float):
+    th_min, th_max = swap_threshold_if_needed(threshold_min, threshold_max)
+
     response_ducats = requests.get('https://api.warframe.market/v1/tools/ducats').json()
     ducat_list = response_ducats['payload']['previous_hour']
     #
@@ -31,8 +43,13 @@ def get_valuable_items(threshold_min: int):
                         ducats=item['ducats'],
                         plat=item['wa_price'])
                       for item in ducat_list
-                      if int(item['ducats_per_platinum_wa']) // 1 >= threshold_min]
+                      if th_min <= float(item['ducats_per_platinum_wa']) <= th_max]
+
     return valuable_items
+
+
+def swap_threshold_if_needed(th_min, th_max):
+    return [th_min, th_max] if th_min <= th_max else [th_max, th_min]
 
 
 def get_all_items():
@@ -45,7 +62,7 @@ def beautiful_json(items: list, indent: int):
         print(json.dumps(item, indent=indent))
 
 
-def filter_all_items_by_list(ducat_items: list):
+def filter_all_items_by_valuables(ducat_items: list):
     all_items = get_all_items()
 
     for ducat_item in ducat_items:
@@ -56,9 +73,16 @@ def filter_all_items_by_list(ducat_items: list):
     return ducat_items
 
 
-threshold = int(sys.argv[1]) if len(sys.argv) == 2 else 7
-val_items = get_valuable_items(threshold)
+threshold_min, threshold_max = populate_threshold_from_args(sys.argv)
+threshold_min, threshold_max = swap_threshold_if_needed(threshold_min, threshold_max)
+print(threshold_min, threshold_max)
 
-filtered_val_items = filter_all_items_by_list(val_items)
+val_items = get_valuable_items(threshold_min, threshold_min)
+
+filtered_val_items = filter_all_items_by_valuables(val_items)
 filtered_val_items = sorted(filtered_val_items, key=lambda x: (x['name'], x['val']))
 print(beautiful_json(filtered_val_items, 2))
+print('\n-----------------------------------------------------------------------------------------------------------\n')
+filtered_val_items = sorted(filtered_val_items, key=lambda x: (x['val'], x['name']))
+print(beautiful_json(filtered_val_items, 2))
+print('\n-----------------------------------------------------------------------------------------------------------\n')
