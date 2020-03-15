@@ -1,0 +1,583 @@
+items count: 41
+{
+  "id": "5a311f85c2c9e90dfff475f7",
+  "val": 10.06,
+  "ducats": 45,
+  "plat": 4.47,
+  "name": "Akbolto Prime Barrel"
+}
+{
+  "id": "5a311f84c2c9e90dfff475f3",
+  "val": 10.23,
+  "ducats": 45,
+  "plat": 4.4,
+  "name": "Akbolto Prime Link"
+}
+{
+  "id": "54a73e65e779893a797fff23",
+  "val": 9.39,
+  "ducats": 45,
+  "plat": 4.79,
+  "name": "Akbronco Prime Link"
+}
+{
+  "id": "5c196fb496037800ddadac1a",
+  "val": 9.32,
+  "ducats": 45,
+  "plat": 4.83,
+  "name": "Akjagara Prime Link"
+}
+{
+  "id": "5c196fb096037800ddadac18",
+  "val": 7.26,
+  "ducats": 45,
+  "plat": 6.2,
+  "name": "Akjagara Prime Receiver"
+}
+{
+  "id": "5d9385b17ea27b0a28fd75ba",
+  "val": 9.14,
+  "ducats": 45,
+  "plat": 4.92,
+  "name": "Atlas Prime Systems"
+}
+{
+  "id": "59a5c2565cd9938cfede703d",
+  "val": 7.49,
+  "ducats": 100,
+  "plat": 13.35,
+  "name": "Ballistica Prime Blueprint"
+}
+{
+  "id": "59a5cd4d5cd9938cfede7046",
+  "val": 10.39,
+  "ducats": 45,
+  "plat": 4.33,
+  "name": "Ballistica Prime Receiver"
+}
+{
+  "id": "59a5cd4d5cd9938cfede7045",
+  "val": 7.59,
+  "ducats": 45,
+  "plat": 5.93,
+  "name": "Ballistica Prime String"
+}
+{
+  "id": "5df955131456970150510f27",
+  "val": 8.43,
+  "ducats": 45,
+  "plat": 5.34,
+  "name": "Baza Prime Barrel"
+}
+{
+  "id": "54a73e65e779893a797fff34",
+  "val": 9.84,
+  "ducats": 45,
+  "plat": 4.57,
+  "name": "Braton Prime Receiver"
+}
+{
+  "id": "54a73e65e779893a797fff36",
+  "val": 10.47,
+  "ducats": 45,
+  "plat": 4.3,
+  "name": "Bronco Prime Barrel"
+}
+{
+  "id": "583580d52c2ada003badef85",
+  "val": 9.8,
+  "ducats": 45,
+  "plat": 4.59,
+  "name": "Cernos Prime Blueprint"
+}
+{
+  "id": "5ba9f2024567de01415f6388",
+  "val": 10.28,
+  "ducats": 45,
+  "plat": 4.38,
+  "name": "Chroma Prime Chassis"
+}
+{
+  "id": "5b2985e3eb069f04ea65b0fb",
+  "val": 9.96,
+  "ducats": 45,
+  "plat": 4.52,
+  "name": "Destreza Prime Blueprint"
+}
+{
+  "id": "5d93ca107ea27b0a87566f5f",
+  "val": 9.89,
+  "ducats": 45,
+  "plat": 4.55,
+  "name": "Dethcube Prime Carapace"
+}
+{
+  "id": "573b801c0ec44a47787a6911",
+  "val": 8.35,
+  "ducats": 65,
+  "plat": 7.78,
+  "name": "Fragor Prime Blueprint"
+}
+{
+  "id": "573b80230ec44a47787a6912",
+  "val": 7.78,
+  "ducats": 65,
+  "plat": 8.36,
+  "name": "Fragor Prime Handle"
+}
+{
+  "id": "57bc9c99e506eb45ea25145b",
+  "val": 7.83,
+  "ducats": 45,
+  "plat": 5.74,
+  "name": "Galatine Prime Handle"
+}
+{
+  "id": "5baa8bbf4567de01ac283495",
+  "val": 10.21,
+  "ducats": 45,
+  "plat": 4.41,
+  "name": "Gram Prime Blueprint"
+}
+{
+  "id": "58b57068eb26db5c31192118",
+  "val": 8.2,
+  "ducats": 45,
+  "plat": 5.49,
+  "name": "Helios Prime Blueprint"
+}
+{
+  "id": "5b2987aaeb069f0536234276",
+  "val": 8.78,
+  "ducats": 45,
+  "plat": 5.13,
+  "name": "Limbo Prime Blueprint"
+}
+{
+  "id": "5c182b739603780081b09a55",
+  "val": 10.39,
+  "ducats": 45,
+  "plat": 4.33,
+  "name": "Mesa Prime Blueprint"
+}
+{
+  "id": "5d21ce48f4604c012d1e0c16",
+  "val": 10.43,
+  "ducats": 45,
+  "plat": 4.32,
+  "name": "Ninkondi Prime Chain"
+}
+{
+  "id": "54a73e65e779893a797fff50",
+  "val": 10.11,
+  "ducats": 45,
+  "plat": 4.45,
+  "name": "Orthos Prime Blade"
+}
+{
+  "id": "54a73e65e779893a797fff51",
+  "val": 11.05,
+  "ducats": 45,
+  "plat": 4.07,
+  "name": "Orthos Prime Blueprint"
+}
+{
+  "id": "54a73e65e779893a797fff53",
+  "val": 8.05,
+  "ducats": 45,
+  "plat": 5.59,
+  "name": "Paris Prime Grip"
+}
+{
+  "id": "54a73e65e779893a797fff54",
+  "val": 7.5,
+  "ducats": 15,
+  "plat": 2.0,
+  "name": "Paris Prime Lower Limb"
+}
+{
+  "id": "54a73e65e779893a797fff57",
+  "val": 8.0,
+  "ducats": 25,
+  "plat": 3.12,
+  "name": "Paris Prime Upper Limb"
+}
+{
+  "id": "5b2985e1eb069f04ea65b0ee",
+  "val": 10.36,
+  "ducats": 45,
+  "plat": 4.34,
+  "name": "Pyrana Prime Receiver"
+}
+{
+  "id": "5c196fae96037800ddadac16",
+  "val": 10.28,
+  "ducats": 45,
+  "plat": 4.38,
+  "name": "Redeemer Prime Blueprint"
+}
+{
+  "id": "5baa8bbf4567de01ac283493",
+  "val": 10.14,
+  "ducats": 45,
+  "plat": 4.44,
+  "name": "Rubico Prime Barrel"
+}
+{
+  "id": "5ca2866ffc2db2035eae059b",
+  "val": 11.77,
+  "ducats": 45,
+  "plat": 3.82,
+  "name": "Stradavar Prime Barrel"
+}
+{
+  "id": "5d93ca127ea27b0a87566f7c",
+  "val": 10.16,
+  "ducats": 45,
+  "plat": 4.43,
+  "name": "Tekko Prime Blueprint"
+}
+{
+  "id": "5ab167b7b2b6a80475780fab",
+  "val": 10.44,
+  "ducats": 45,
+  "plat": 4.31,
+  "name": "Tiberon Prime Blueprint"
+}
+{
+  "id": "5ab167b8b2b6a80475780fb8",
+  "val": 7.39,
+  "ducats": 100,
+  "plat": 13.52,
+  "name": "Tiberon Prime Stock"
+}
+{
+  "id": "57bc9c84e506eb45ea251457",
+  "val": 7.82,
+  "ducats": 45,
+  "plat": 5.76,
+  "name": "Tigris Prime Barrel"
+}
+{
+  "id": "5d21ce46f4604c012d1e0c12",
+  "val": 7.22,
+  "ducats": 100,
+  "plat": 13.84,
+  "name": "Wukong Prime Blueprint"
+}
+{
+  "id": "5ab1570db2b6a8044d5137c3",
+  "val": 9.74,
+  "ducats": 45,
+  "plat": 4.62,
+  "name": "Zephyr Prime Chassis"
+}
+{
+  "id": "5d21ce43f4604c012d1e0c0d",
+  "val": 7.3,
+  "ducats": 100,
+  "plat": 13.71,
+  "name": "Zhuge Prime Barrel"
+}
+{
+  "id": "5d21ce47f4604c012d1e0c15",
+  "val": 10.14,
+  "ducats": 45,
+  "plat": 4.44,
+  "name": "Zhuge Prime Blueprint"
+}
+None
+
+-----------------------------------------------------------------------------------------------------------
+
+{
+  "id": "5d21ce46f4604c012d1e0c12",
+  "val": 7.22,
+  "ducats": 100,
+  "plat": 13.84,
+  "name": "Wukong Prime Blueprint"
+}
+{
+  "id": "5c196fb096037800ddadac18",
+  "val": 7.26,
+  "ducats": 45,
+  "plat": 6.2,
+  "name": "Akjagara Prime Receiver"
+}
+{
+  "id": "5d21ce43f4604c012d1e0c0d",
+  "val": 7.3,
+  "ducats": 100,
+  "plat": 13.71,
+  "name": "Zhuge Prime Barrel"
+}
+{
+  "id": "5ab167b8b2b6a80475780fb8",
+  "val": 7.39,
+  "ducats": 100,
+  "plat": 13.52,
+  "name": "Tiberon Prime Stock"
+}
+{
+  "id": "59a5c2565cd9938cfede703d",
+  "val": 7.49,
+  "ducats": 100,
+  "plat": 13.35,
+  "name": "Ballistica Prime Blueprint"
+}
+{
+  "id": "54a73e65e779893a797fff54",
+  "val": 7.5,
+  "ducats": 15,
+  "plat": 2.0,
+  "name": "Paris Prime Lower Limb"
+}
+{
+  "id": "59a5cd4d5cd9938cfede7045",
+  "val": 7.59,
+  "ducats": 45,
+  "plat": 5.93,
+  "name": "Ballistica Prime String"
+}
+{
+  "id": "573b80230ec44a47787a6912",
+  "val": 7.78,
+  "ducats": 65,
+  "plat": 8.36,
+  "name": "Fragor Prime Handle"
+}
+{
+  "id": "57bc9c84e506eb45ea251457",
+  "val": 7.82,
+  "ducats": 45,
+  "plat": 5.76,
+  "name": "Tigris Prime Barrel"
+}
+{
+  "id": "57bc9c99e506eb45ea25145b",
+  "val": 7.83,
+  "ducats": 45,
+  "plat": 5.74,
+  "name": "Galatine Prime Handle"
+}
+{
+  "id": "54a73e65e779893a797fff57",
+  "val": 8.0,
+  "ducats": 25,
+  "plat": 3.12,
+  "name": "Paris Prime Upper Limb"
+}
+{
+  "id": "54a73e65e779893a797fff53",
+  "val": 8.05,
+  "ducats": 45,
+  "plat": 5.59,
+  "name": "Paris Prime Grip"
+}
+{
+  "id": "58b57068eb26db5c31192118",
+  "val": 8.2,
+  "ducats": 45,
+  "plat": 5.49,
+  "name": "Helios Prime Blueprint"
+}
+{
+  "id": "573b801c0ec44a47787a6911",
+  "val": 8.35,
+  "ducats": 65,
+  "plat": 7.78,
+  "name": "Fragor Prime Blueprint"
+}
+{
+  "id": "5df955131456970150510f27",
+  "val": 8.43,
+  "ducats": 45,
+  "plat": 5.34,
+  "name": "Baza Prime Barrel"
+}
+{
+  "id": "5b2987aaeb069f0536234276",
+  "val": 8.78,
+  "ducats": 45,
+  "plat": 5.13,
+  "name": "Limbo Prime Blueprint"
+}
+{
+  "id": "5d9385b17ea27b0a28fd75ba",
+  "val": 9.14,
+  "ducats": 45,
+  "plat": 4.92,
+  "name": "Atlas Prime Systems"
+}
+{
+  "id": "5c196fb496037800ddadac1a",
+  "val": 9.32,
+  "ducats": 45,
+  "plat": 4.83,
+  "name": "Akjagara Prime Link"
+}
+{
+  "id": "54a73e65e779893a797fff23",
+  "val": 9.39,
+  "ducats": 45,
+  "plat": 4.79,
+  "name": "Akbronco Prime Link"
+}
+{
+  "id": "5ab1570db2b6a8044d5137c3",
+  "val": 9.74,
+  "ducats": 45,
+  "plat": 4.62,
+  "name": "Zephyr Prime Chassis"
+}
+{
+  "id": "583580d52c2ada003badef85",
+  "val": 9.8,
+  "ducats": 45,
+  "plat": 4.59,
+  "name": "Cernos Prime Blueprint"
+}
+{
+  "id": "54a73e65e779893a797fff34",
+  "val": 9.84,
+  "ducats": 45,
+  "plat": 4.57,
+  "name": "Braton Prime Receiver"
+}
+{
+  "id": "5d93ca107ea27b0a87566f5f",
+  "val": 9.89,
+  "ducats": 45,
+  "plat": 4.55,
+  "name": "Dethcube Prime Carapace"
+}
+{
+  "id": "5b2985e3eb069f04ea65b0fb",
+  "val": 9.96,
+  "ducats": 45,
+  "plat": 4.52,
+  "name": "Destreza Prime Blueprint"
+}
+{
+  "id": "5a311f85c2c9e90dfff475f7",
+  "val": 10.06,
+  "ducats": 45,
+  "plat": 4.47,
+  "name": "Akbolto Prime Barrel"
+}
+{
+  "id": "54a73e65e779893a797fff50",
+  "val": 10.11,
+  "ducats": 45,
+  "plat": 4.45,
+  "name": "Orthos Prime Blade"
+}
+{
+  "id": "5baa8bbf4567de01ac283493",
+  "val": 10.14,
+  "ducats": 45,
+  "plat": 4.44,
+  "name": "Rubico Prime Barrel"
+}
+{
+  "id": "5d21ce47f4604c012d1e0c15",
+  "val": 10.14,
+  "ducats": 45,
+  "plat": 4.44,
+  "name": "Zhuge Prime Blueprint"
+}
+{
+  "id": "5d93ca127ea27b0a87566f7c",
+  "val": 10.16,
+  "ducats": 45,
+  "plat": 4.43,
+  "name": "Tekko Prime Blueprint"
+}
+{
+  "id": "5baa8bbf4567de01ac283495",
+  "val": 10.21,
+  "ducats": 45,
+  "plat": 4.41,
+  "name": "Gram Prime Blueprint"
+}
+{
+  "id": "5a311f84c2c9e90dfff475f3",
+  "val": 10.23,
+  "ducats": 45,
+  "plat": 4.4,
+  "name": "Akbolto Prime Link"
+}
+{
+  "id": "5ba9f2024567de01415f6388",
+  "val": 10.28,
+  "ducats": 45,
+  "plat": 4.38,
+  "name": "Chroma Prime Chassis"
+}
+{
+  "id": "5c196fae96037800ddadac16",
+  "val": 10.28,
+  "ducats": 45,
+  "plat": 4.38,
+  "name": "Redeemer Prime Blueprint"
+}
+{
+  "id": "5b2985e1eb069f04ea65b0ee",
+  "val": 10.36,
+  "ducats": 45,
+  "plat": 4.34,
+  "name": "Pyrana Prime Receiver"
+}
+{
+  "id": "59a5cd4d5cd9938cfede7046",
+  "val": 10.39,
+  "ducats": 45,
+  "plat": 4.33,
+  "name": "Ballistica Prime Receiver"
+}
+{
+  "id": "5c182b739603780081b09a55",
+  "val": 10.39,
+  "ducats": 45,
+  "plat": 4.33,
+  "name": "Mesa Prime Blueprint"
+}
+{
+  "id": "5d21ce48f4604c012d1e0c16",
+  "val": 10.43,
+  "ducats": 45,
+  "plat": 4.32,
+  "name": "Ninkondi Prime Chain"
+}
+{
+  "id": "5ab167b7b2b6a80475780fab",
+  "val": 10.44,
+  "ducats": 45,
+  "plat": 4.31,
+  "name": "Tiberon Prime Blueprint"
+}
+{
+  "id": "54a73e65e779893a797fff36",
+  "val": 10.47,
+  "ducats": 45,
+  "plat": 4.3,
+  "name": "Bronco Prime Barrel"
+}
+{
+  "id": "54a73e65e779893a797fff51",
+  "val": 11.05,
+  "ducats": 45,
+  "plat": 4.07,
+  "name": "Orthos Prime Blueprint"
+}
+{
+  "id": "5ca2866ffc2db2035eae059b",
+  "val": 11.77,
+  "ducats": 45,
+  "plat": 3.82,
+  "name": "Stradavar Prime Barrel"
+}
+None
+
+-----------------------------------------------------------------------------------------------------------
+

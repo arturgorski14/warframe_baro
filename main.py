@@ -15,7 +15,7 @@ def populate_threshold_from_args(*argv):
 
 
 def valuable_items_intervals(threshold_min: int, threshold_max: int):
-    threshold_min, threshold_max = swap_threshold_if_needed(threshold_min, threshold_max)
+    th_min, th_max = swap_threshold_if_needed(threshold_min, threshold_max)
 
     response_ducats = requests.get('https://api.warframe.market/v1/tools/ducats').json()
     ducat_list = response_ducats['payload']['previous_hour']
@@ -28,7 +28,7 @@ def valuable_items_intervals(threshold_min: int, threshold_max: int):
 
     [print(f'{i}: {x}') for i, x in enumerate(wa_all_items)]
 
-    print(sum(wa_all_items[threshold_min:threshold_max]))
+    print(sum(wa_all_items[th_min:th_max]))
 
 
 def get_valuable_items(threshold_min: float, threshold_max: float):
@@ -36,7 +36,7 @@ def get_valuable_items(threshold_min: float, threshold_max: float):
 
     response_ducats = requests.get('https://api.warframe.market/v1/tools/ducats').json()
     ducat_list = response_ducats['payload']['previous_hour']
-    #
+
     valuable_items = [dict(
                         id=item['item'],
                         val=item['ducats_per_platinum_wa'],
@@ -75,14 +75,18 @@ def filter_all_items_by_valuables(ducat_items: list):
 
 threshold_min, threshold_max = populate_threshold_from_args(sys.argv)
 threshold_min, threshold_max = swap_threshold_if_needed(threshold_min, threshold_max)
-print(threshold_min, threshold_max)
+# print(f'min: {threshold_min}, max: {threshold_max}')
 
-val_items = get_valuable_items(threshold_min, threshold_min)
-
+val_items = get_valuable_items(threshold_min, threshold_max)
+print(f'items count: {len(val_items)}')
 filtered_val_items = filter_all_items_by_valuables(val_items)
+
 filtered_val_items = sorted(filtered_val_items, key=lambda x: (x['name'], x['val']))
 print(beautiful_json(filtered_val_items, 2))
+
 print('\n-----------------------------------------------------------------------------------------------------------\n')
+
 filtered_val_items = sorted(filtered_val_items, key=lambda x: (x['val'], x['name']))
 print(beautiful_json(filtered_val_items, 2))
+
 print('\n-----------------------------------------------------------------------------------------------------------\n')

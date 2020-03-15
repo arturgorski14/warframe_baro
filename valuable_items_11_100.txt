@@ -1,0 +1,37 @@
+items count: 2
+{
+  "id": "54a73e65e779893a797fff51",
+  "val": 11.05,
+  "ducats": 45,
+  "plat": 4.07,
+  "name": "Orthos Prime Blueprint"
+}
+{
+  "id": "5ca2866ffc2db2035eae059b",
+  "val": 11.77,
+  "ducats": 45,
+  "plat": 3.82,
+  "name": "Stradavar Prime Barrel"
+}
+None
+
+-----------------------------------------------------------------------------------------------------------
+
+{
+  "id": "54a73e65e779893a797fff51",
+  "val": 11.05,
+  "ducats": 45,
+  "plat": 4.07,
+  "name": "Orthos Prime Blueprint"
+}
+{
+  "id": "5ca2866ffc2db2035eae059b",
+  "val": 11.77,
+  "ducats": 45,
+  "plat": 3.82,
+  "name": "Stradavar Prime Barrel"
+}
+None
+
+-----------------------------------------------------------------------------------------------------------
+
