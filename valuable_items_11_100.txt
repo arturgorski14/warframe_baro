@@ -1,34 +1,174 @@
-items count: 2
+items count: 12
+{
+  "id": "5c196fb496037800ddadac1a",
+  "val": 11.48,
+  "ducats": 45,
+  "plat": 3.92,
+  "name": "Akjagara Prime Link"
+}
+{
+  "id": "5df955131456970150510f27",
+  "val": 11.42,
+  "ducats": 45,
+  "plat": 3.94,
+  "name": "Baza Prime Barrel"
+}
+{
+  "id": "54a73e65e779893a797fff34",
+  "val": 13.73,
+  "ducats": 45,
+  "plat": 3.28,
+  "name": "Braton Prime Receiver"
+}
+{
+  "id": "5b2985e3eb069f04ea65b0fb",
+  "val": 13.38,
+  "ducats": 45,
+  "plat": 3.36,
+  "name": "Destreza Prime Blueprint"
+}
+{
+  "id": "5c182b739603780081b09a55",
+  "val": 11.6,
+  "ducats": 45,
+  "plat": 3.88,
+  "name": "Mesa Prime Blueprint"
+}
+{
+  "id": "5d21ce48f4604c012d1e0c16",
+  "val": 12.21,
+  "ducats": 45,
+  "plat": 3.68,
+  "name": "Ninkondi Prime Chain"
+}
+{
+  "id": "54a73e65e779893a797fff50",
+  "val": 12.12,
+  "ducats": 45,
+  "plat": 3.71,
+  "name": "Orthos Prime Blade"
+}
 {
   "id": "54a73e65e779893a797fff51",
-  "val": 11.05,
+  "val": 12.3,
   "ducats": 45,
-  "plat": 4.07,
+  "plat": 3.66,
   "name": "Orthos Prime Blueprint"
 }
 {
-  "id": "5ca2866ffc2db2035eae059b",
-  "val": 11.77,
+  "id": "5c196fae96037800ddadac16",
+  "val": 11.6,
   "ducats": 45,
-  "plat": 3.82,
+  "plat": 3.88,
+  "name": "Redeemer Prime Blueprint"
+}
+{
+  "id": "5ca2866ffc2db2035eae059b",
+  "val": 14.28,
+  "ducats": 45,
+  "plat": 3.15,
   "name": "Stradavar Prime Barrel"
+}
+{
+  "id": "5ab167b7b2b6a80475780fab",
+  "val": 11.56,
+  "ducats": 45,
+  "plat": 3.89,
+  "name": "Tiberon Prime Blueprint"
+}
+{
+  "id": "5d21ce47f4604c012d1e0c15",
+  "val": 12.32,
+  "ducats": 45,
+  "plat": 3.65,
+  "name": "Zhuge Prime Blueprint"
 }
 None
 
 -----------------------------------------------------------------------------------------------------------
 
 {
-  "id": "54a73e65e779893a797fff51",
-  "val": 11.05,
+  "id": "5df955131456970150510f27",
+  "val": 11.42,
   "ducats": 45,
-  "plat": 4.07,
+  "plat": 3.94,
+  "name": "Baza Prime Barrel"
+}
+{
+  "id": "5c196fb496037800ddadac1a",
+  "val": 11.48,
+  "ducats": 45,
+  "plat": 3.92,
+  "name": "Akjagara Prime Link"
+}
+{
+  "id": "5ab167b7b2b6a80475780fab",
+  "val": 11.56,
+  "ducats": 45,
+  "plat": 3.89,
+  "name": "Tiberon Prime Blueprint"
+}
+{
+  "id": "5c182b739603780081b09a55",
+  "val": 11.6,
+  "ducats": 45,
+  "plat": 3.88,
+  "name": "Mesa Prime Blueprint"
+}
+{
+  "id": "5c196fae96037800ddadac16",
+  "val": 11.6,
+  "ducats": 45,
+  "plat": 3.88,
+  "name": "Redeemer Prime Blueprint"
+}
+{
+  "id": "54a73e65e779893a797fff50",
+  "val": 12.12,
+  "ducats": 45,
+  "plat": 3.71,
+  "name": "Orthos Prime Blade"
+}
+{
+  "id": "5d21ce48f4604c012d1e0c16",
+  "val": 12.21,
+  "ducats": 45,
+  "plat": 3.68,
+  "name": "Ninkondi Prime Chain"
+}
+{
+  "id": "54a73e65e779893a797fff51",
+  "val": 12.3,
+  "ducats": 45,
+  "plat": 3.66,
   "name": "Orthos Prime Blueprint"
 }
 {
-  "id": "5ca2866ffc2db2035eae059b",
-  "val": 11.77,
+  "id": "5d21ce47f4604c012d1e0c15",
+  "val": 12.32,
   "ducats": 45,
-  "plat": 3.82,
+  "plat": 3.65,
+  "name": "Zhuge Prime Blueprint"
+}
+{
+  "id": "5b2985e3eb069f04ea65b0fb",
+  "val": 13.38,
+  "ducats": 45,
+  "plat": 3.36,
+  "name": "Destreza Prime Blueprint"
+}
+{
+  "id": "54a73e65e779893a797fff34",
+  "val": 13.73,
+  "ducats": 45,
+  "plat": 3.28,
+  "name": "Braton Prime Receiver"
+}
+{
+  "id": "5ca2866ffc2db2035eae059b",
+  "val": 14.28,
+  "ducats": 45,
+  "plat": 3.15,
   "name": "Stradavar Prime Barrel"
 }
 None
